@@ -1,4 +1,24 @@
 {
+    "docub-time": {
+        "prefix": "dt",
+        "body": ["(!${1})${0}"],
+        "description": "Docub time tag"
+    },
+    "docub-ignore": {
+        "prefix": "di",
+        "body": ["#### ! docub-ignore${0}"],
+        "description": "Docub ignore block"
+    },
+    "docub-end": {
+        "prefix": "de",
+        "body": ["#### ! docub-end\n${0}"],
+        "description": "Docub end comment"
+    },
+    "docub-comment": {
+        "prefix": "dc",
+        "body": ["#### !${0}"],
+        "description": "Docub ignore comment prefix"
+    },
     "header 1": {
         "prefix": "h1",
         "body": ["# ${0}"],
